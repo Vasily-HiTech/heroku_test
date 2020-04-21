@@ -7,4 +7,4 @@ app.get('/', (req, res) => {
     
     res.send('welcome to test heroku')
 })
-app.listen(80)
+app.listen(process.env.PORT)
